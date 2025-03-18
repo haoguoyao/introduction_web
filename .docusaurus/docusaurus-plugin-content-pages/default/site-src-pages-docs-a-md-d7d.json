@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/docs/a",
+  "source": "@site/src/pages/docs/a.md",
+  "title": "Hello",
+  "description": "This is my first Docusaurus document!",
+  "frontMatter": {
+    "sidebar_label": "Hi!",
+    "sidebar_position": 3
+  },
+  "unlisted": false
+}
