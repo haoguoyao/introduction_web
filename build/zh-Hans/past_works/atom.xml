@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-site.example.com/zh-Hans/past_works</id>
+    <title>My Site Blog</title>
+    <updated>2025-03-18T06:51:53.728Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com/zh-Hans/past_works"/>
+    <subtitle>My Site Blog</subtitle>
+    <icon>https://your-docusaurus-site.example.com/zh-Hans/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[intro]]></title>
+        <id>https://your-docusaurus-site.example.com/zh-Hans/past_works/intro</id>
+        <link href="https://your-docusaurus-site.example.com/zh-Hans/past_works/intro"/>
+        <updated>2025-03-18T06:51:53.728Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazing Project 1]]></title>
+        <id>https://your-docusaurus-site.example.com/zh-Hans/past_works/project-1</id>
+        <link href="https://your-docusaurus-site.example.com/zh-Hans/past_works/project-1"/>
+        <updated>2023-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a showcase of my first amazing project.]]></summary>
+        <content type="html"><![CDATA[<p>This is a showcase of my first amazing project.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-i-did">What I did<a href="https://your-docusaurus-site.example.com/zh-Hans/past_works/project-1#what-i-did" class="hash-link" aria-label="What I did的直接链接" title="What I did的直接链接">​</a></h2>
+<p>Details about what I accomplished in this project.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="technologies-used">Technologies used<a href="https://your-docusaurus-site.example.com/zh-Hans/past_works/project-1#technologies-used" class="hash-link" aria-label="Technologies used的直接链接" title="Technologies used的直接链接">​</a></h2>
+<ul>
+<li>React</li>
+<li>Node.js</li>
+<li>MongoDB</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="demo">Demo<a href="https://your-docusaurus-site.example.com/zh-Hans/past_works/project-1#demo" class="hash-link" aria-label="Demo的直接链接" title="Demo的直接链接">​</a></h2>
+<p>Here you can find a link to the demo or screenshots of the project.</p>]]></content>
+        <author>
+            <name>Guoyao Hao</name>
+            <uri>https://github.com/haoguoyao</uri>
+        </author>
+        <category label="project" term="project"/>
+        <category label="portfolio" term="portfolio"/>
+    </entry>
+</feed>

@@ -33,7 +33,21 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh-Hans', 'es'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-US',
+        label: 'English',
+      },
+      'zh-Hans': {
+        htmlLang: 'zh-Hans',
+        label: '简体中文',
+      },
+      es: {
+        htmlLang: 'es-ES',
+        label: 'Español',
+      },
+    },
   },
 
   presets: [
@@ -70,13 +84,38 @@ const config = {
     ],
   ],
 
+  // 添加自定义插件配置
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * 必需项
+         */
+        id: 'past-works',
+        routeBasePath: 'past_works',
+        path: './past_works',
+        
+        /**
+         * 可选项
+         */
+        showReadingTime: true,
+      },
+    ],
+  ],
+
+  // // Add stylesheets array at the root level of the config
+  // stylesheets: [
+  //   'css/icon.css',
+  // ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'CS Tutor',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
@@ -90,11 +129,17 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/past_works', label: 'Pass', position: 'left'},
+          {to: '/freelancer', label: 'Freelancer', position: 'left'},
           {
             href: 'https://github.com/haoguoyao',
             label: 'GitHub',
             position: 'right',
           },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -140,7 +185,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Tazzy Street LLC`,
+        copyright: `Copyright © ${new Date().getFullYear()} Tazzy Street LLC, Guoyao Hao`,
       },
       prism: {
         theme: prismThemes.github,

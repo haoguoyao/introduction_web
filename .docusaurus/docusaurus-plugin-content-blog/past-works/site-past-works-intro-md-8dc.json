@@ -1,0 +1,17 @@
+{
+  "permalink": "/past_works/intro",
+  "source": "@site/past_works/intro.md",
+  "title": "intro",
+  "description": "",
+  "date": "2025-03-18T06:51:53.728Z",
+  "tags": [],
+  "readingTime": 0,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {},
+  "unlisted": false,
+  "nextItem": {
+    "title": "Amazing Project 1",
+    "permalink": "/past_works/project-1"
+  }
+}

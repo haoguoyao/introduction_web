@@ -1,0 +1,9 @@
+{
+  "type": "mdx",
+  "permalink": "/past_works",
+  "source": "@site/src/pages/past_works.mdx",
+  "title": "Past Works",
+  "description": "This page showcases some of my past works and projects.",
+  "frontMatter": {},
+  "unlisted": false
+}

@@ -16,10 +16,28 @@ export default {
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en"
+      "en",
+      "zh-Hans",
+      "es"
     ],
-    "path": "i18n",
-    "localeConfigs": {}
+    "localeConfigs": {
+      "en": {
+        "htmlLang": "en-US",
+        "label": "English",
+        "direction": "ltr"
+      },
+      "zh-Hans": {
+        "htmlLang": "zh-Hans",
+        "label": "简体中文",
+        "direction": "ltr"
+      },
+      "es": {
+        "htmlLang": "es-ES",
+        "label": "Español",
+        "direction": "ltr"
+      }
+    },
+    "path": "i18n"
   },
   "presets": [
     [
@@ -49,6 +67,17 @@ export default {
       }
     ]
   ],
+  "plugins": [
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        "id": "past-works",
+        "routeBasePath": "past_works",
+        "path": "./past_works",
+        "showReadingTime": true
+      }
+    ]
+  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
@@ -68,6 +97,16 @@ export default {
         {
           "to": "/blog",
           "label": "Blog",
+          "position": "left"
+        },
+        {
+          "to": "/past_works",
+          "label": "Pass",
+          "position": "left"
+        },
+        {
+          "to": "/freelancer",
+          "label": "Freelancer",
           "position": "left"
         },
         {
@@ -332,7 +371,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
