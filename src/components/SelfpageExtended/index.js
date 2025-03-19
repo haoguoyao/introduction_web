@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import styles from './styles.module.css';
+import styles from '../Selfpage/styles.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -71,22 +71,30 @@ export default function SelfpageExtended() {
           <div className={clsx('col col--8')}>
             <h2>Introduction</h2>
             <div className={styles.summary}>
-              <p>
-                Highly skilled software engineer with expertise in AI, deep learning, large language models (LLM), and full‑stack development. 
-                Two Master's degrees in Computer Science and Computer Engineering. Three years of hands-on experience in intelligent system, 
-                NLP, data science and cloud service.
-              </p>
-              <p>
-                Has a proven record of full‑cycle software development, including requirements analysis, design, data preprocessing, 
-                model development, testing, and deployment. With the strong ability to integrate the latest techniques and research background, 
-                solved real-world business problems, implemented complex machine learning models, and delivered impactful results.
-              </p>
+            <p>
+                    Highly skilled software engineer with expertise in AI, deep learning, large language models (LLM), and full‑stack development. 
+                    Two Master's degrees in Computer Science and Computer Engineering. 
+                    </p>
+                    <p>
+                    Years of hands-on experience on full‑cycle software development, including requirements analysis, design, data preprocessing, 
+                    model development, testing, and deployment. With the strong ability to integrate the latest techniques and research background, 
+        solved real-world problems, implemented complex machine learning system, and delivered impactful results.
+                  </p>
             </div>
 
             {/* Freelancer 板块 */}
             <div className={styles.freelancer}>
               <h2>Freelancer Services</h2>
               <div className={styles.servicesList}>
+                  <div className={styles.serviceItem}>
+                    <FontAwesomeIcon 
+                      icon={['fas', 'graduation-cap']} 
+                      className={styles.serviceIcon}
+                    />
+                    <h3>CS Assignment Tutor</h3>
+                    <p>Algorithm design, programming assignments, and technical mentoring</p>
+                  </div>
+
                 <div className={styles.serviceItem}>
                   <FontAwesomeIcon 
                     icon={['fas', 'robot']} 
@@ -115,7 +123,7 @@ export default function SelfpageExtended() {
             </div>
 
             {/* 教育背景 */}
-            <div className={styles.education}>
+            {/* <div className={styles.education}>
               <h2>Education</h2>
               <div className={styles.educationEntry}>
                 <div className={styles.institution}>University of California, Riverside (UCR)</div>
@@ -130,7 +138,10 @@ export default function SelfpageExtended() {
                 <div className={styles.institution}>Northeastern University (China)</div>
                 <div className={styles.degree}>B.E. in Software Engineering</div>
               </div>
-            </div>
+            </div> */}
+
+
+
           </div>
         </div>
       </div>

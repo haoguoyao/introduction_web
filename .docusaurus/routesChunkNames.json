@@ -76,14 +76,14 @@
   "/freelancer-0f8": {
     "__comp": "__comp---site-src-pages-freelancer-js-3-a-2-545",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "plugin---freelancera-74-6da"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---freelancer-5-e-9-3b3"
   },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "plugin---freelancera-74-6da"
     },
     "content": "content---markdown-page-393-028"
   },
@@ -237,8 +237,8 @@
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "plugin---freelancera-74-6da"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---freelancer-5-e-9-3b3"
   }
 }

@@ -76,17 +76,16 @@ export default function Selfpage() {
                 <div className={styles.summary}>
                   <p>
                     Highly skilled software engineer with expertise in AI, deep learning, large language models (LLM), and full‑stack development. 
-                    Two Master's degrees in Computer Science and Computer Engineering. Three years of hands-on experience in intelligent system, 
-                    NLP, data science and cloud service.
-                  </p>
-                  <p>
-                    Has a proven record of full‑cycle software development, including requirements analysis, design, data preprocessing, 
+                    Two Master's degrees in Computer Science and Computer Engineering. 
+                    </p>
+                    <p>
+                    Years of hands-on experience on full‑cycle software development, including requirements analysis, design, data preprocessing, 
                     model development, testing, and deployment. With the strong ability to integrate the latest techniques and research background, 
-                    solved real-world business problems, implemented complex machine learning models, and delivered impactful results.
+        solved real-world problems, implemented complex machine learning system, and delivered impactful results.
                   </p>
                 </div>
     
-                {/* Freelancer 板块 */}
+                {/* Freelancer 板块
                 <div className={styles.freelancer}>
                   <h2>Freelancer Services</h2>
                   <div className={styles.servicesList}>
@@ -115,7 +114,7 @@ export default function Selfpage() {
                       <p>Data analysis, visualization, and machine learning models</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
     
                 {/* 教育背景 */}
                 <div className={styles.education}>
@@ -134,6 +133,8 @@ export default function Selfpage() {
                     <div className={styles.degree}>B.E. in Software Engineering</div>
                   </div>
                 </div>
+
+                
               </div>
             </div>
           </div>

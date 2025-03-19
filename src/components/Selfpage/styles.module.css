@@ -48,11 +48,15 @@
 .education {
   margin-top: 2rem;
   margin-bottom: 2rem;
+
+
 }
 
 .educationEntry {
   margin-bottom: 1.5rem;
   padding: 1rem;
+  /* font-weight: bold; */
+
   border-radius: 8px;
   background-color: var(--ifm-background-surface-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -60,12 +64,13 @@
 
 .institution {
   font-size: 1.1rem;
+    font-weight: bold;
   margin-bottom: 0.25rem;
 }
 
 .degree {
-  color: var(--ifm-color-primary);
-  font-weight: bold;
+  /* color: var(--ifm-color-primary); */
+  /* font-weight: bold; */
   margin-bottom: 0.25rem;
 }
 
