@@ -1,0 +1,21 @@
+{
+  "permalink": "/blog/Testing",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-04-01-optimizer.md",
+  "source": "@site/blog/2025-04-01-optimizer.md",
+  "title": "Optimizer choosing",
+  "description": "Recently I was working on a contract,.",
+  "date": "2025-04-01T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.12,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "Testing",
+    "title": "Optimizer choosing"
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "How AI designed differently or Dota2 and StarCraft II",
+    "permalink": "/blog/2024/07/28/starcraftdota"
+  }
+}

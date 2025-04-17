@@ -1,17 +1,39 @@
 {
-  "permalink": "/past_works/intro",
+  "permalink": "/past_works/Intro",
   "source": "@site/past_works/intro.md",
-  "title": "intro",
-  "description": "",
-  "date": "2025-03-18T06:18:55.000Z",
+  "title": "Intro",
+  "description": "This shows my preious freelancer work",
+  "date": "2025-04-17T00:00:00.000Z",
   "tags": [],
-  "readingTime": 0,
+  "readingTime": 0.03,
   "hasTruncateMarker": false,
-  "authors": [],
-  "frontMatter": {},
+  "authors": [
+    {
+      "name": "Guoyao Hao",
+      "title": "AI Engineer, Software Engineer",
+      "url": "https://github.com/haoguoyao",
+      "page": {
+        "permalink": "/past_works/authors/guoyao"
+      },
+      "socials": {
+        "github": "https://github.com/haoguoyao"
+      },
+      "imageURL": "https://github.com/haoguoyao.png",
+      "key": "guoyao"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Intro",
+    "title": "Intro",
+    "authors": [
+      "guoyao"
+    ],
+    "tags": [],
+    "date": "2025-04-17T00:00:00.000Z"
+  },
   "unlisted": false,
   "nextItem": {
-    "title": "Amazing Project 1",
-    "permalink": "/past_works/project-1"
+    "title": "Website development for local business",
+    "permalink": "/past_works/2024/07/28/website"
   }
 }

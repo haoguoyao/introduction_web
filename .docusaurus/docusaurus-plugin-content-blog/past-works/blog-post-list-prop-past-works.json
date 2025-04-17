@@ -2,14 +2,26 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "intro",
-      "permalink": "/past_works/intro",
+      "title": "Intro",
+      "permalink": "/past_works/Intro",
       "unlisted": false,
-      "date": "2025-03-18T06:18:55.000Z"
+      "date": "2025-04-17T00:00:00.000Z"
     },
     {
-      "title": "Amazing Project 1",
-      "permalink": "/past_works/project-1",
+      "title": "Website development for local business",
+      "permalink": "/past_works/2024/07/28/website",
+      "unlisted": false,
+      "date": "2024-07-28T00:00:00.000Z"
+    },
+    {
+      "title": "Testing",
+      "permalink": "/past_works/Testing",
+      "unlisted": false,
+      "date": "2024-06-16T00:00:00.000Z"
+    },
+    {
+      "title": "Mock Interview with customer",
+      "permalink": "/past_works/Mock Interview with customer",
       "unlisted": false,
       "date": "2023-12-01T00:00:00.000Z"
     }

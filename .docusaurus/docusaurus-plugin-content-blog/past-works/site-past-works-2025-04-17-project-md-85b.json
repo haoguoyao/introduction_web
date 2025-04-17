@@ -1,9 +1,9 @@
 {
-  "permalink": "/past_works/Mock Interview with customer",
-  "source": "@site/past_works/2023-12-01-project-1.md",
-  "title": "Mock Interview with customer",
-  "description": "A good resource for machine learning system design interview.",
-  "date": "2023-12-01T00:00:00.000Z",
+  "permalink": "/past_works/mock-interview-with-customer",
+  "source": "@site/past_works/2025-04-17-project.md",
+  "title": "Mock Interview with Customer",
+  "description": "This is a detailed description of the mock interview project.",
+  "date": "2025-04-17T00:00:00.000Z",
   "tags": [
     {
       "inline": true,
@@ -16,7 +16,7 @@
       "permalink": "/past_works/tags/portfolio"
     }
   ],
-  "readingTime": 0.21,
+  "readingTime": 0.27,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -34,19 +34,20 @@
     }
   ],
   "frontMatter": {
-    "slug": "Mock Interview with customer",
-    "title": "Mock Interview with customer",
+    "slug": "mock-interview-with-customer",
+    "title": "Mock Interview with Customer",
     "authors": [
       "guoyao"
     ],
     "tags": [
       "project",
       "portfolio"
-    ]
+    ],
+    "date": "2025-04-17T00:00:00.000Z"
   },
   "unlisted": false,
-  "prevItem": {
-    "title": "Testing",
-    "permalink": "/past_works/Testing"
+  "nextItem": {
+    "title": "Mock Interview with customer",
+    "permalink": "/past_works/Mock Interview with customer"
   }
 }

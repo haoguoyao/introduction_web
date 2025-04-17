@@ -1,8 +1,8 @@
 {
-  "permalink": "/blog/long-blog-post",
+  "permalink": "/blog/Testing",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-06-16-first.md",
   "source": "@site/blog/2024-06-16-first.md",
-  "title": "Long Blog Post",
+  "title": "Testing",
   "description": "This is the summary of a very long blog post,",
   "date": "2024-06-16T00:00:00.000Z",
   "tags": [],
@@ -10,8 +10,12 @@
   "hasTruncateMarker": true,
   "authors": [],
   "frontMatter": {
-    "slug": "long-blog-post",
-    "title": "Long Blog Post"
+    "slug": "Testing",
+    "title": "Testing"
   },
-  "unlisted": false
+  "unlisted": false,
+  "prevItem": {
+    "title": "How AI designed differently or Dota2 and StarCraft II",
+    "permalink": "/blog/2024/07/28/starcraftdota"
+  }
 }

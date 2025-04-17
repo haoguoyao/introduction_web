@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+const personalInfo = require('./src/config/personal').default;
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -122,14 +123,14 @@ const config = {
           srcDark: 'img/logo_dark.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/past_works', label: 'Pass', position: 'left'},
+          {to: '/past_works', label: 'Freelancer work log', position: 'left'},
           {to: '/freelancer', label: 'Freelancer', position: 'left'},
           {
             href: 'https://github.com/haoguoyao',
@@ -185,7 +186,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Tazzy Street LLC, Guoyao Hao`,
+        copyright: `Copyright © ${new Date().getFullYear()} ${personalInfo.company}, ${personalInfo.name}`,
       },
       prism: {
         theme: prismThemes.github,

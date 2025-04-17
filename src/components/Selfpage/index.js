@@ -1,6 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import personalInfo from '../../config/personal';
+
 // Import the original mapper
 import MDXComponents from '@theme-original/MDXComponents';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import the FontAwesomeIcon component.
@@ -41,10 +43,10 @@ export default function Selfpage() {
                       className={styles.contactIcon}
                     />
                     <a 
-                      href="mailto:ghao004@ucr.edu" 
+                        href={`mailto:${personalInfo.email}`}
                       className={styles.contactLink}
                     >
-                      ghao004@ucr.edu
+                      {personalInfo.email}
                     </a>
                   </div>
                   <div className={styles.contactItem}>

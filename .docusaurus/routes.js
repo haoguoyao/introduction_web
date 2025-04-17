@@ -39,7 +39,12 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '206'),
+    component: ComponentCreator('/blog', '4cf'),
+    exact: true
+  },
+  {
+    path: '/blog/2024/07/28/starcraftdota',
+    component: ComponentCreator('/blog/2024/07/28/starcraftdota', 'a2c'),
     exact: true
   },
   {
@@ -48,8 +53,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '45d'),
+    path: '/blog/Testing',
+    component: ComponentCreator('/blog/Testing', 'bea'),
     exact: true
   },
   {
@@ -64,7 +69,12 @@ export default [
   },
   {
     path: '/past_works',
-    component: ComponentCreator('/past_works', 'dd3'),
+    component: ComponentCreator('/past_works', 'dec'),
+    exact: true
+  },
+  {
+    path: '/past_works/2024/07/28/website',
+    component: ComponentCreator('/past_works/2024/07/28/website', '383'),
     exact: true
   },
   {
@@ -84,7 +94,7 @@ export default [
   },
   {
     path: '/past_works/authors/guoyao',
-    component: ComponentCreator('/past_works/authors/guoyao', 'ffb'),
+    component: ComponentCreator('/past_works/authors/guoyao', '33d'),
     exact: true
   },
   {
@@ -93,13 +103,13 @@ export default [
     exact: true
   },
   {
-    path: '/past_works/intro',
-    component: ComponentCreator('/past_works/intro', '704'),
+    path: '/past_works/Intro',
+    component: ComponentCreator('/past_works/Intro', '791'),
     exact: true
   },
   {
-    path: '/past_works/project-1',
-    component: ComponentCreator('/past_works/project-1', '7c8'),
+    path: '/past_works/Mock Interview with customer',
+    component: ComponentCreator('/past_works/Mock Interview with customer', '90a'),
     exact: true
   },
   {
@@ -115,6 +125,11 @@ export default [
   {
     path: '/past_works/tags/project',
     component: ComponentCreator('/past_works/tags/project', 'a40'),
+    exact: true
+  },
+  {
+    path: '/past_works/Testing',
+    component: ComponentCreator('/past_works/Testing', '19f'),
     exact: true
   },
   {

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import personalInfo from '../../config/personal';
 
 library.add(fab, fas);
 
@@ -37,12 +38,12 @@ export default function SelfpageExtended() {
                   icon={['fas', 'envelope']} 
                   className={styles.contactIcon}
                 />
-                <a 
-                  href="mailto:ghao004@ucr.edu" 
-                  className={styles.contactLink}
-                >
-                  ghao004@ucr.edu
-                </a>
+                    <a 
+                        href={`mailto:${personalInfo.email}`}
+                      className={styles.contactLink}
+                    >
+                      {personalInfo.email}
+                    </a>
               </div>
               <div className={styles.contactItem}>
                 <FontAwesomeIcon 

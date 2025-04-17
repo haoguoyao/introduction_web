@@ -89,19 +89,13 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
           "to": "/blog",
           "label": "Blog",
           "position": "left"
         },
         {
           "to": "/past_works",
-          "label": "Pass",
+          "label": "Freelancer work log",
           "position": "left"
         },
         {

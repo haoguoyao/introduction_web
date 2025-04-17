@@ -1,0 +1,24 @@
+{
+  "permalink": "/past_works/Testing",
+  "source": "@site/past_works/2024-06-16-first.md",
+  "title": "Testing",
+  "description": "This is the summary of a very long blog post,",
+  "date": "2024-06-16T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 2.06,
+  "hasTruncateMarker": true,
+  "authors": [],
+  "frontMatter": {
+    "slug": "Testing",
+    "title": "Testing"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Website development for local business",
+    "permalink": "/past_works/2024/07/28/website"
+  },
+  "nextItem": {
+    "title": "Mock Interview with customer",
+    "permalink": "/past_works/Mock Interview with customer"
+  }
+}
