@@ -64,6 +64,34 @@ export default function Selfpage() {
                     </a>
                   </div>
                   <div className={styles.contactItem}>
+                <FontAwesomeIcon 
+                  icon={['fab', 'linkedin']} 
+                  className={styles.contactIcon}
+                />
+                <a 
+                  href={personalInfo.linkedin.url}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={styles.contactLink}
+                >
+                  linkedin.com/in/{personalInfo.linkedin.username}
+                </a>
+              </div>
+              <div className={styles.contactItem}>
+                <FontAwesomeIcon 
+                  icon={['fas', 'file-pdf']} 
+                  className={styles.contactIcon}
+                />
+                <a 
+                  href={personalInfo.resume.url}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={styles.contactLink}
+                >
+                  {personalInfo.resume.label}
+                </a>
+              </div>
+                  <div className={styles.contactItem}>
                     <FontAwesomeIcon 
                       icon={['fab', 'weixin']} 
                       className={styles.contactIcon}

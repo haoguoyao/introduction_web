@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-site.example.com/es/blog</id>
+    <title>My Site Blog</title>
+    <updated>2025-04-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com/es/blog"/>
+    <subtitle>My Site Blog</subtitle>
+    <icon>https://your-docusaurus-site.example.com/es/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Optimizer choosing]]></title>
+        <id>https://your-docusaurus-site.example.com/es/blog/Testing</id>
+        <link href="https://your-docusaurus-site.example.com/es/blog/Testing"/>
+        <updated>2025-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently I was working on a contract,.]]></summary>
+        <content type="html"><![CDATA[<p>Recently I was working on a contract,.</p>
+<p>It shows that the Adam optimizer perform betters is we train the model from scratch, and the</p>]]></content>
+    </entry>
+</feed>

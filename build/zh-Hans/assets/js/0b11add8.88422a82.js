@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaaa=self.webpackChunkaaa||[]).push([[888],{9704:a=>{a.exports=JSON.parse('{"blogBasePath":"/zh-Hans/past_works","blogTitle":"Blog","authorsListPath":"/zh-Hans/past_works/authors"}')}}]);

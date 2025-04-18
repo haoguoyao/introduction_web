@@ -1,10 +1,18 @@
 const personalInfo = {
   name: 'Guoyao Hao',
   location: 'Los Angeles, CA',
-  email: 'guoyao@tazzystreet.com',
+  email: 'ghao004@ucr.edu',
   github: {
     username: 'haoguoyao',
     url: 'https://github.com/haoguoyao'
+  },
+  linkedin: {
+    username: 'haoguoyao',
+    url: 'https://www.linkedin.com/in/haoguoyao'
+  },
+  resume: {
+    url: require('@site/static/resume.pdf').default,  // 使用require方式引用
+    label: 'Download Resume'
   },
   wechat: 'haoguoyao99',
   education: [

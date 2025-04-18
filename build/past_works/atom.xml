@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-site.example.com/past_works</id>
+    <title>My Site Blog</title>
+    <updated>2025-04-17T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com/past_works"/>
+    <subtitle>My Site Blog</subtitle>
+    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Website development for local business]]></title>
+        <id>https://your-docusaurus-site.example.com/past_works/Website development for local business</id>
+        <link href="https://your-docusaurus-site.example.com/past_works/Website development for local business"/>
+        <updated>2025-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The website is hosted on AWS]]></summary>
+        <content type="html"><![CDATA[<p>The website is hosted on AWS
+Check this link to see the website.</p>
+<p><a href="http://afs-garage.s3-website-us-west-1.amazonaws.com/" target="_blank" rel="noopener noreferrer">afs-garage.s3-website-us-west-1.ama…</a></p>]]></content>
+        <author>
+            <name>Guoyao Hao</name>
+            <uri>https://github.com/haoguoyao</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adam VS SGD+momentum]]></title>
+        <id>https://your-docusaurus-site.example.com/past_works/Adam VS SGD+momentum</id>
+        <link href="https://your-docusaurus-site.example.com/past_works/Adam VS SGD+momentum"/>
+        <updated>2025-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently I trained a CNN model on Tiny imagenet dataset.]]></summary>
+        <content type="html"><![CDATA[<p>Recently I trained a CNN model on Tiny imagenet dataset.</p>
+<p>As I expected, the Adam optimzer gave me better result when training the model from scratch. However, when fine-tuning, the Adam struggle a lot, on the opposite, SGD+ momentum gave a good result within only a few epochs. I thought Adam is more advanced, but it seems that Adam not always better.
+<img decoding="async" loading="lazy" alt="Training Curve" src="https://your-docusaurus-site.example.com/assets/images/Adam-vs-sgd-e4254eb1dc8b11f4d21994398f0b1404.png" width="1224" height="632" class="img_ev3q"></p>
+<p>Experiments were done in the Tiny imagenet dataset, and used efficientnetv2 as the model.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="adam-is-better-in-training-model-from-scratch">Adam is better in training model from scratch.<a href="https://your-docusaurus-site.example.com/past_works/Adam%20VS%20SGD+momentum#adam-is-better-in-training-model-from-scratch" class="hash-link" aria-label="Direct link to Adam is better in training model from scratch." title="Direct link to Adam is better in training model from scratch.">​</a></h3>
+<p>When you train a model from scratch, the weights are initialized randomly. Gradients can vary wildly across layers, especially early in training.</p>
+<p>•	It adapts the learning rate per parameter, handling sharp curvature or sparse gradients well
+•	It warms up faster, especially when gradients are noisy
+•	It doesn’t require much hyperparameter tuning out of the box</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sgd-is-better-when-fine-tuning-pre-trained-model">SGD is better when fine-Tuning Pre-Trained Model<a href="https://your-docusaurus-site.example.com/past_works/Adam%20VS%20SGD+momentum#sgd-is-better-when-fine-tuning-pre-trained-model" class="hash-link" aria-label="Direct link to SGD is better when fine-Tuning Pre-Trained Model" title="Direct link to SGD is better when fine-Tuning Pre-Trained Model">​</a></h3>
+<p>In transfer learning or fine-tuning, the situation is different:
+•	The network already has good feature representations
+•	The gradients are well-formed and less noisy
+•	The task usually only requires subtle parameter shifts</p>]]></content>
+        <author>
+            <name>Guoyao Hao</name>
+            <uri>https://github.com/haoguoyao</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How AI designed differently or Dota2 and StarCraft II]]></title>
+        <id>https://your-docusaurus-site.example.com/past_works/2024/07/28/starcraftdota</id>
+        <link href="https://your-docusaurus-site.example.com/past_works/2024/07/28/starcraftdota"/>
+        <updated>2024-07-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Go is considered to be the most complex board game. But video games could be more complex that Go.]]></summary>
+        <content type="html"><![CDATA[<p>Go is considered to be the most complex board game. But video games could be more complex that Go.
+AlphaGo beat human at 2016, but Dota2 and Starcraft2 were not solved until 2019.</p>
+<table><thead><tr><th></th><th><strong>Go</strong></th><th><strong>StarCraft II</strong></th><th><strong>Dota 2</strong></th></tr></thead><tbody><tr><td><strong>Game Type</strong></td><td>Turn-based, 1v1</td><td>Real-time, 1v1</td><td>Real-time team game, 5v5</td></tr><tr><td><strong>Information</strong></td><td>Fully observable</td><td>Partially observable (fog of war)</td><td>Partially observable (fog of war)</td></tr><tr><td><strong>Action Space</strong></td><td>~250 discrete moves</td><td>Thousands of actions</td><td>Thousands of actions</td></tr><tr><td><strong>Time Horizon</strong></td><td>~150 moves</td><td>20,000+ ticks per game</td><td>20,000+ ticks per game</td></tr><tr><td><strong>Temporal Nature</strong></td><td>Turn-based</td><td>Real-time</td><td>Real-time</td></tr><tr><td><strong>Control Complexity</strong></td><td>One move at a time</td><td>Hundreds of units</td><td>One hero per agent, team synergy</td></tr><tr><td><strong>Collaboration</strong></td><td>Single-agent</td><td>Single-agent</td><td>Multi-agent coordination</td></tr></tbody></table>
+<hr>
+<p>In recent years, <strong>AlphaStar</strong> (by DeepMind) and <strong>OpenAI Five</strong> (by OpenAI) have stood out as groundbreaking AI systems that defeated top human players in some of the most complex real-time strategy games: <strong>StarCraft II</strong> and <strong>Dota 2</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="this-post-will-walk-you-through-how-alphastar-and-openai-five-handle-time-differently">This post will walk you through <strong>how AlphaStar and OpenAI Five handle time</strong> differently.<a href="https://your-docusaurus-site.example.com/past_works/2024/07/28/starcraftdota#this-post-will-walk-you-through-how-alphastar-and-openai-five-handle-time-differently" class="hash-link" aria-label="Direct link to this-post-will-walk-you-through-how-alphastar-and-openai-five-handle-time-differently" title="Direct link to this-post-will-walk-you-through-how-alphastar-and-openai-five-handle-time-differently">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="alphastar-transformers-on-a-single-snapshot">AlphaStar: Transformers on a Single Snapshot<a href="https://your-docusaurus-site.example.com/past_works/2024/07/28/starcraftdota#alphastar-transformers-on-a-single-snapshot" class="hash-link" aria-label="Direct link to AlphaStar: Transformers on a Single Snapshot" title="Direct link to AlphaStar: Transformers on a Single Snapshot">​</a></h2>
+<p>AlphaStar processes the game <strong>frame by frame</strong>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="input">Input:<a href="https://your-docusaurus-site.example.com/past_works/2024/07/28/starcraftdota#input" class="hash-link" aria-label="Direct link to Input:" title="Direct link to Input:">​</a></h3>
+<p>At each time step, AlphaStar takes a <strong>set of entities</strong> (e.g., units, buildings, etc.), where each entity is represented by features like health, position, type, etc. This forms a <strong>structured input sequence</strong> — not in time, but in space.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="architecture">Architecture:<a href="https://your-docusaurus-site.example.com/past_works/2024/07/28/starcraftdota#architecture" class="hash-link" aria-label="Direct link to Architecture:" title="Direct link to Architecture:">​</a></h3>
+<ul>
+<li>A <strong>Transformer encoder</strong> processes this unordered list of entities.</li>
+<li><strong>Self-attention</strong> allows the model to understand relationships between units (e.g., who is attacking whom, who’s in danger).</li>
+<li>A <strong>Pointer Network</strong> is used for output to select actions targeting specific entities or positions.</li>
+</ul>
+<blockquote>
+<p>AlphaStar doesn’t model time explicitly — <strong>each frame is processed independently</strong>. Temporal understanding must be inferred indirectly through state variables like cooldown timers or health deltas.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="openai-five-lstm-over-time">OpenAI Five: LSTM Over Time<a href="https://your-docusaurus-site.example.com/past_works/2024/07/28/starcraftdota#openai-five-lstm-over-time" class="hash-link" aria-label="Direct link to OpenAI Five: LSTM Over Time" title="Direct link to OpenAI Five: LSTM Over Time">​</a></h2>
+<p>In contrast, OpenAI Five <strong>models a sequence of time steps</strong>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="input-1">Input:<a href="https://your-docusaurus-site.example.com/past_works/2024/07/28/starcraftdota#input-1" class="hash-link" aria-label="Direct link to Input:" title="Direct link to Input:">​</a></h3>
+<p>Every agent (one per hero) observes the environment <strong>every 4 frames</strong>, resulting in <strong>a long sequence of observations</strong> — up to 20,000 steps in a full match.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="architecture-1">Architecture:<a href="https://your-docusaurus-site.example.com/past_works/2024/07/28/starcraftdota#architecture-1" class="hash-link" aria-label="Direct link to Architecture:" title="Direct link to Architecture:">​</a></h3>
+<ul>
+<li>A <strong>single-layer LSTM</strong> with 1024 hidden units captures the agent’s past observations and actions.</li>
+<li>This allows the agent to <strong>remember previous events</strong>, such as skill usage, movement patterns, or enemy behavior.</li>
+</ul>
+<blockquote>
+<p>OpenAI Five relies heavily on explicit memory. It passes and updates the <code>hidden_state</code> between steps, allowing the AI to form <strong>temporal context</strong> and learn long-horizon strategies.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-the-design-differ-between-alphastar-and-openai-five">Why the design differ between AlphaStar and OpenAI Five<a href="https://your-docusaurus-site.example.com/past_works/2024/07/28/starcraftdota#why-the-design-differ-between-alphastar-and-openai-five" class="hash-link" aria-label="Direct link to Why the design differ between AlphaStar and OpenAI Five" title="Direct link to Why the design differ between AlphaStar and OpenAI Five">​</a></h2>
+<p>The two games require different types of intelligence:</p>
+<ul>
+<li>
+<p><strong>StarCraft II</strong> (AlphaStar):</p>
+<ul>
+<li>Heavy emphasis on <strong>multi-unit spatial micromanagement</strong>.</li>
+<li>Needs to understand "who is doing what" in the current frame.</li>
+<li>Time can be indirectly inferred from unit states (e.g., cooldowns).</li>
+<li>Transformer excels at modeling <strong>relations between entities</strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Dota 2</strong> (OpenAI Five):</p>
+<ul>
+<li>Involves <strong>long-horizon team strategies</strong> and skill combos.</li>
+<li>Agents need memory of past actions, enemy sightings, map control.</li>
+<li>LSTM is better suited for capturing <strong>sequential decision patterns</strong>.</li>
+</ul>
+</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mock Interview with customer]]></title>
+        <id>https://your-docusaurus-site.example.com/past_works/Mock Interview with customer</id>
+        <link href="https://your-docusaurus-site.example.com/past_works/Mock Interview with customer"/>
+        <updated>2023-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A good resource for machine learning system design interview.]]></summary>
+        <content type="html"><![CDATA[<p>A good resource for machine learning system design interview.
+<a href="https://bytebytego.com/courses/machine-learning-system-design-interview/visual-search-system" target="_blank" rel="noopener noreferrer">https://bytebytego.com/courses/machine-learning-system-design-interview/visual-search-system</a>
+Each mock interview takes about 1.5 hour.</p>
+<p>In additional to this, I also prepared system design for RAG system and anomoly detection.
+Wish the customer a good luck to his upcoming interview.</p>]]></content>
+        <author>
+            <name>Guoyao Hao</name>
+            <uri>https://github.com/haoguoyao</uri>
+        </author>
+        <category label="project" term="project"/>
+        <category label="portfolio" term="portfolio"/>
+    </entry>
+</feed>

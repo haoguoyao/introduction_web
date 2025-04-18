@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaaa=self.webpackChunkaaa||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Optimizer choosing","permalink":"/blog/Testing","unlisted":false,"date":"2025-04-01T00:00:00.000Z"}]}')}}]);
