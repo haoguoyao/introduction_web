@@ -89,18 +89,13 @@ export default {
       },
       "items": [
         {
-          "to": "/blog",
-          "label": "Blog",
+          "to": "/freelancer",
+          "label": "Freelancer",
           "position": "left"
         },
         {
           "to": "/past_works",
-          "label": "Freelancer work log",
-          "position": "left"
-        },
-        {
-          "to": "/freelancer",
-          "label": "Freelancer",
+          "label": "Blog",
           "position": "left"
         },
         {

@@ -39,12 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '4cf'),
-    exact: true
-  },
-  {
-    path: '/blog/2024/07/28/starcraftdota',
-    component: ComponentCreator('/blog/2024/07/28/starcraftdota', 'a2c'),
+    component: ComponentCreator('/blog', '8b9'),
     exact: true
   },
   {
@@ -69,12 +64,17 @@ export default [
   },
   {
     path: '/past_works',
-    component: ComponentCreator('/past_works', 'dec'),
+    component: ComponentCreator('/past_works', 'af6'),
     exact: true
   },
   {
-    path: '/past_works/2024/07/28/website',
-    component: ComponentCreator('/past_works/2024/07/28/website', '383'),
+    path: '/past_works/2024/07/28/starcraftdota',
+    component: ComponentCreator('/past_works/2024/07/28/starcraftdota', '3ae'),
+    exact: true
+  },
+  {
+    path: '/past_works/Adam VS SGD+momentum',
+    component: ComponentCreator('/past_works/Adam VS SGD+momentum', '6ef'),
     exact: true
   },
   {
@@ -88,23 +88,8 @@ export default [
     exact: true
   },
   {
-    path: '/past_works/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/past_works/authors/all-sebastien-lorber-articles', 'b8b'),
-    exact: true
-  },
-  {
     path: '/past_works/authors/guoyao',
-    component: ComponentCreator('/past_works/authors/guoyao', '33d'),
-    exact: true
-  },
-  {
-    path: '/past_works/authors/yangshun',
-    component: ComponentCreator('/past_works/authors/yangshun', '7f4'),
-    exact: true
-  },
-  {
-    path: '/past_works/Intro',
-    component: ComponentCreator('/past_works/Intro', '791'),
+    component: ComponentCreator('/past_works/authors/guoyao', '82f'),
     exact: true
   },
   {
@@ -128,8 +113,8 @@ export default [
     exact: true
   },
   {
-    path: '/past_works/Testing',
-    component: ComponentCreator('/past_works/Testing', '19f'),
+    path: '/past_works/Website development for local business',
+    component: ComponentCreator('/past_works/Website development for local business', 'cdb'),
     exact: true
   },
   {

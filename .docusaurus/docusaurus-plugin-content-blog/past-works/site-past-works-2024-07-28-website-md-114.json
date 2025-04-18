@@ -1,21 +1,38 @@
 {
-  "permalink": "/past_works/2024/07/28/website",
+  "permalink": "/past_works/Website development for local business",
   "source": "@site/past_works/2024-07-28-website.md",
   "title": "Website development for local business",
   "description": "The website is hosted on AWS",
-  "date": "2024-07-28T00:00:00.000Z",
+  "date": "2025-04-17T00:00:00.000Z",
   "tags": [],
   "readingTime": 0.07,
   "hasTruncateMarker": false,
-  "authors": [],
-  "frontMatter": {},
-  "unlisted": false,
-  "prevItem": {
-    "title": "Intro",
-    "permalink": "/past_works/Intro"
+  "authors": [
+    {
+      "name": "Guoyao Hao",
+      "title": "AI Engineer, Software Engineer",
+      "url": "https://github.com/haoguoyao",
+      "page": {
+        "permalink": "/past_works/authors/guoyao"
+      },
+      "socials": {
+        "github": "https://github.com/haoguoyao"
+      },
+      "imageURL": "https://github.com/haoguoyao.png",
+      "key": "guoyao"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Website development for local business",
+    "title": "Website development for local business",
+    "authors": [
+      "guoyao"
+    ],
+    "date": "2025-04-17T00:00:00.000Z"
   },
+  "unlisted": false,
   "nextItem": {
-    "title": "Testing",
-    "permalink": "/past_works/Testing"
+    "title": "Adam VS SGD+momentum",
+    "permalink": "/past_works/Adam VS SGD+momentum"
   }
 }

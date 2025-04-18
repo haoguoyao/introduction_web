@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-4cf": {
+  "/blog-8b9": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -51,23 +51,9 @@
     "items": [
       {
         "content": "content---blog-389-87b"
-      },
-      {
-        "content": "content---blogeb-9-5a6"
       }
     ],
     "__props": "__props---blogc-15-573"
-  },
-  "/blog/2024/07/28/starcraftdota-a2c": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---blog-2024-07-28-starcraftdotaace-17b"
-      },
-      "plugin": "plugin---blog-369-22e"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2024-07-28-starcraftdota-59-b-2a1"
   },
   "/blog/archive-182": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
@@ -80,12 +66,12 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-2024-07-28-starcraftdotaace-17b"
+        "blogMetadata": "blogMetadata---blog-testingace-07d"
       },
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2025-04-01-optimizerb-86-5f8"
+    "content": "content---blog-testingb-86-5ad"
   },
   "/freelancer-0f8": {
     "__comp": "__comp---site-src-pages-freelancer-js-3-a-2-545",
@@ -101,7 +87,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/past_works-dec": {
+  "/past_works-af6": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---past-works-8-f-2-16c"
@@ -109,13 +95,13 @@
     "sidebar": "sidebar---past-worksa-75-7fe",
     "items": [
       {
-        "content": "content---past-works-083-4b8"
-      },
-      {
         "content": "content---past-works-15-c-24f"
       },
       {
-        "content": "content---past-worksf-58-f7b"
+        "content": "content---past-works-5-d-2-7b2"
+      },
+      {
+        "content": "content---past-works-762-bd3"
       },
       {
         "content": "content---past-works-868-d59"
@@ -123,16 +109,27 @@
     ],
     "__props": "__props---past-worksaff-2ca"
   },
-  "/past_works/2024/07/28/website-383": {
+  "/past_works/2024/07/28/starcraftdota-3ae": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-copy-0-b-1-cc3"
+        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-0-b-1-be6"
       },
       "plugin": "plugin---past-works-8-f-2-16c"
     },
     "sidebar": "sidebar---past-worksa-75-7fe",
-    "content": "content---past-works-2024-07-28-website-114-dad"
+    "content": "content---past-works-2024-07-28-starcraftdota-300-0fc"
+  },
+  "/past_works/Adam VS SGD+momentum-6ef": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-0-b-1-be6"
+      },
+      "plugin": "plugin---past-works-8-f-2-16c"
+    },
+    "sidebar": "sidebar---past-worksa-75-7fe",
+    "content": "content---past-works-adam-vs-sgd-momentum-808-cd3"
   },
   "/past_works/archive-6d3": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
@@ -145,36 +142,27 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-copy-0-b-1-cc3"
+        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-0-b-1-be6"
       },
       "plugin": "plugin---past-works-8-f-2-16c"
     },
     "sidebar": "sidebar---past-worksa-75-7fe",
     "__props": "__props---past-works-authorsba-3-205"
   },
-  "/past_works/authors/all-sebastien-lorber-articles-b8b": {
+  "/past_works/authors/guoyao-82f": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-copy-0-b-1-cc3"
-      },
-      "plugin": "plugin---past-works-8-f-2-16c"
-    },
-    "items": [],
-    "sidebar": "sidebar---past-worksa-75-7fe",
-    "__props": "__props---past-works-authors-all-sebastien-lorber-articlesd-65-a37"
-  },
-  "/past_works/authors/guoyao-33d": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-copy-0-b-1-cc3"
+        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-0-b-1-be6"
       },
       "plugin": "plugin---past-works-8-f-2-16c"
     },
     "items": [
       {
-        "content": "content---past-works-083-4b8"
+        "content": "content---past-works-15-c-24f"
+      },
+      {
+        "content": "content---past-works-5-d-2-7b2"
       },
       {
         "content": "content---past-works-868-d59"
@@ -183,34 +171,11 @@
     "sidebar": "sidebar---past-worksa-75-7fe",
     "__props": "__props---past-works-authors-guoyaof-62-c84"
   },
-  "/past_works/authors/yangshun-7f4": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-copy-0-b-1-cc3"
-      },
-      "plugin": "plugin---past-works-8-f-2-16c"
-    },
-    "items": [],
-    "sidebar": "sidebar---past-worksa-75-7fe",
-    "__props": "__props---past-works-authors-yangshunbfd-8d5"
-  },
-  "/past_works/Intro-791": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-copy-0-b-1-cc3"
-      },
-      "plugin": "plugin---past-works-8-f-2-16c"
-    },
-    "sidebar": "sidebar---past-worksa-75-7fe",
-    "content": "content---past-works-intro-8-dc-cf5"
-  },
   "/past_works/Mock Interview with customer-90a": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-copy-0-b-1-cc3"
+        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-0-b-1-be6"
       },
       "plugin": "plugin---past-works-8-f-2-16c"
     },
@@ -251,16 +216,16 @@
     ],
     "__props": "__props---past-works-tags-projectd-59-8e0"
   },
-  "/past_works/Testing-19f": {
+  "/past_works/Website development for local business-cdb": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-copy-0-b-1-cc3"
+        "blogMetadata": "blogMetadata---past-works-2024-07-28-starcraftdota-0-b-1-be6"
       },
       "plugin": "plugin---past-works-8-f-2-16c"
     },
     "sidebar": "sidebar---past-worksa-75-7fe",
-    "content": "content---past-works-testingd-13-9d1"
+    "content": "content---past-works-website-development-for-local-business-114-6c0"
   },
   "/docs-393": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",

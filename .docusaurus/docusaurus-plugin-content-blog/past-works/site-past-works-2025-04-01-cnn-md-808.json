@@ -1,11 +1,11 @@
 {
-  "permalink": "/past_works/Intro",
-  "source": "@site/past_works/intro.md",
-  "title": "Intro",
-  "description": "This shows my preious freelancer work",
-  "date": "2025-04-17T00:00:00.000Z",
+  "permalink": "/past_works/Adam VS SGD+momentum",
+  "source": "@site/past_works/2025-04-01-CNN.md",
+  "title": "Adam VS SGD+momentum",
+  "description": "Recently I trained a CNN model on Tiny imagenet dataset.",
+  "date": "2025-04-01T00:00:00.000Z",
   "tags": [],
-  "readingTime": 0.03,
+  "readingTime": 0.935,
   "hasTruncateMarker": false,
   "authors": [
     {
@@ -23,13 +23,12 @@
     }
   ],
   "frontMatter": {
-    "slug": "Intro",
-    "title": "Intro",
+    "slug": "Adam VS SGD+momentum",
+    "title": "Adam VS SGD+momentum",
     "authors": [
       "guoyao"
     ],
-    "tags": [],
-    "date": "2025-04-17T00:00:00.000Z"
+    "date": "2025-04-01T00:00:00.000Z"
   },
   "unlisted": false,
   "prevItem": {
@@ -37,7 +36,7 @@
     "permalink": "/past_works/Website development for local business"
   },
   "nextItem": {
-    "title": "Adam VS SGD+momentum",
-    "permalink": "/past_works/Adam VS SGD+momentum"
+    "title": "How AI designed differently or Dota2 and StarCraft II",
+    "permalink": "/past_works/2024/07/28/starcraftdota"
   }
 }

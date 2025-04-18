@@ -129,9 +129,10 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/past_works', label: 'Freelancer work log', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/freelancer', label: 'Freelancer', position: 'left'},
+          {to: '/past_works', label: 'Blog', position: 'left'},
+
           {
             href: 'https://github.com/haoguoyao',
             label: 'GitHub',
